@@ -1,4 +1,4 @@
-/%
+/*
 San Wong
 hswong1@uci.edu
 
@@ -24,7 +24,7 @@ if n=11. You take 3, Leave your friend 8, You win.
 
 	Conclusion: As long as n%4!=0. You win
 
-%/
+*/
 
 public class NimGame{
 	public boolean canWin(int n){

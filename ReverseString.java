@@ -1,10 +1,10 @@
-/%
+/*
 San Wong
 hswong1@uci.edi
 
 LeetCode 344. Reverse String
 Given s = "hello", return "olleh".
-%/
+*/
 
 public class ReverseString{
 	public String reverseString(String s){
