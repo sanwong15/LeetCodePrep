@@ -26,6 +26,10 @@ public class shortestWordDistance {
 		
 		System.out.println("Given word1 = 'makes', word2 = 'coding', Expected to return 1");
 		System.out.println("Result: " + list.distance("makes", "coding"));
+		
+		System.out.println("Testing for equal case. word1 = word2");
+		System.out.println("Given word1 = 'coding', word2 = 'coding', Expected to return 0");
+		System.out.println("Result: " + list.distance("coding", "coding"));
 	}
 
 }
