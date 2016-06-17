@@ -22,7 +22,7 @@ public class MeetingRooms {
 		
 		Interval[] intervals = {meeting1,meeting2,meeting3};
 		
-		System.out.println("Are there any overlapping meetings?:  " + freeToAttend(intervals));
+		System.out.println("Can I go to all the meetings?:  " + freeToAttend(intervals));
 
 	}
 	
