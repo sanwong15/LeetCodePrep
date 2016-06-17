@@ -43,12 +43,6 @@ public class MeetingRoomII {
 			end[i] = intervals[i].end;
 		}
 		
-		//end array: 30,10,20
-		for (int e: end){
-			System.out.print(e + "  ");
-		}
-		System.out.println();
-		
 		Interval previousMeeting = intervals[0];
 		int previousEndTimeIndex = 0;
 		roomCount++; //We ned one room for the first meetig anyways
